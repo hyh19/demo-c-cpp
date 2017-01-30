@@ -1,0 +1,276 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CABE3F1D1E3D9A8F009A9B1A /* list.c in Sources */ = {isa = PBXBuildFile; fileRef = CABE3F1B1E3D9A8F009A9B1A /* list.c */; };
+		CABE3F1F1E3D9AA1009A9B1A /* testlist.c in Sources */ = {isa = PBXBuildFile; fileRef = CABE3F1E1E3D9AA0009A9B1A /* testlist.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CAD37FFC1E3C3A9400FC3E4F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CABE3F1B1E3D9A8F009A9B1A /* list.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = list.c; sourceTree = "<group>"; };
+		CABE3F1C1E3D9A8F009A9B1A /* list.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = list.h; sourceTree = "<group>"; };
+		CABE3F1E1E3D9AA0009A9B1A /* testlist.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = testlist.c; sourceTree = "<group>"; };
+		CAD37FFE1E3C3A9400FC3E4F /* Book5 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Book5; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAD380081E3C3AB600FC3E4F /* 数据结构与算法分析C语言描述第二版.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "数据结构与算法分析C语言描述第二版.md"; sourceTree = "<group>"; };
+		CAD380091E3C3ACD00FC3E4F /* tree.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = tree.c; sourceTree = "<group>"; };
+		CAD3800A1E3C3ACD00FC3E4F /* tree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tree.h; sourceTree = "<group>"; };
+		CAD3800C1E3C3ADB00FC3E4F /* testtree.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = testtree.c; sourceTree = "<group>"; };
+		CAD3800E1E3C3B1300FC3E4F /* fatal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fatal.h; sourceTree = "<group>"; };
+		CAD3800F1E3C5BEF00FC3E4F /* avltree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = avltree.h; sourceTree = "<group>"; };
+		CAD380101E3C5BF400FC3E4F /* avltree.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = avltree.c; sourceTree = "<group>"; };
+		CAD380121E3C5C0300FC3E4F /* testavl.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = testavl.c; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CAD37FFB1E3C3A9400FC3E4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CAD37FF51E3C3A9300FC3E4F = {
+			isa = PBXGroup;
+			children = (
+				CAD380081E3C3AB600FC3E4F /* 数据结构与算法分析C语言描述第二版.md */,
+				CAD380001E3C3A9400FC3E4F /* Book5 */,
+				CAD37FFF1E3C3A9400FC3E4F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CAD37FFF1E3C3A9400FC3E4F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CAD37FFE1E3C3A9400FC3E4F /* Book5 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CAD380001E3C3A9400FC3E4F /* Book5 */ = {
+			isa = PBXGroup;
+			children = (
+				CAD3800E1E3C3B1300FC3E4F /* fatal.h */,
+				CAD3800A1E3C3ACD00FC3E4F /* tree.h */,
+				CAD380091E3C3ACD00FC3E4F /* tree.c */,
+				CAD3800C1E3C3ADB00FC3E4F /* testtree.c */,
+				CAD3800F1E3C5BEF00FC3E4F /* avltree.h */,
+				CAD380101E3C5BF400FC3E4F /* avltree.c */,
+				CAD380121E3C5C0300FC3E4F /* testavl.c */,
+				CABE3F1B1E3D9A8F009A9B1A /* list.c */,
+				CABE3F1C1E3D9A8F009A9B1A /* list.h */,
+				CABE3F1E1E3D9AA0009A9B1A /* testlist.c */,
+			);
+			path = Book5;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CAD37FFD1E3C3A9400FC3E4F /* Book5 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAD380051E3C3A9400FC3E4F /* Build configuration list for PBXNativeTarget "Book5" */;
+			buildPhases = (
+				CAD37FFA1E3C3A9400FC3E4F /* Sources */,
+				CAD37FFB1E3C3A9400FC3E4F /* Frameworks */,
+				CAD37FFC1E3C3A9400FC3E4F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Book5;
+			productName = Book5;
+			productReference = CAD37FFE1E3C3A9400FC3E4F /* Book5 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CAD37FF61E3C3A9300FC3E4F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Yuhui Huang";
+				TargetAttributes = {
+					CAD37FFD1E3C3A9400FC3E4F = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CAD37FF91E3C3A9300FC3E4F /* Build configuration list for PBXProject "Book5" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CAD37FF51E3C3A9300FC3E4F;
+			productRefGroup = CAD37FFF1E3C3A9400FC3E4F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CAD37FFD1E3C3A9400FC3E4F /* Book5 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CAD37FFA1E3C3A9400FC3E4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CABE3F1D1E3D9A8F009A9B1A /* list.c in Sources */,
+				CABE3F1F1E3D9AA1009A9B1A /* testlist.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CAD380031E3C3A9400FC3E4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CAD380041E3C3A9400FC3E4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CAD380061E3C3A9400FC3E4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CAD380071E3C3A9400FC3E4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CAD37FF91E3C3A9300FC3E4F /* Build configuration list for PBXProject "Book5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAD380031E3C3A9400FC3E4F /* Debug */,
+				CAD380041E3C3A9400FC3E4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAD380051E3C3A9400FC3E4F /* Build configuration list for PBXNativeTarget "Book5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAD380061E3C3A9400FC3E4F /* Debug */,
+				CAD380071E3C3A9400FC3E4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CAD37FF61E3C3A9300FC3E4F /* Project object */;
+}

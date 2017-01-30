@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:Book1/Book1.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Book2/Book2.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Book3/Book3.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Book4/Book4.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Book5/Book5.xcodeproj">
+   </FileRef>
+</Workspace>
