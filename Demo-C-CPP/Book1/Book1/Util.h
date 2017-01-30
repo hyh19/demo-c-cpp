@@ -8,3 +8,11 @@ void printArray(int a[], int n) {
     }
     printf("\n---- print array end ----\n");
 }
+
+// 交换两个整数的顺序
+void swap(int *a, int *b) {
+    int temp;
+    temp = *a;
+    *a = *b;
+    *b = temp;
+}

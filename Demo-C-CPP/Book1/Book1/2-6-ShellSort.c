@@ -1,25 +1,4 @@
-//
-//  2-6-x.c
-//  Demo-Data-Structure-C
-//
-//  Created by Yuhui Huang on 10/01/2017.
-//  Copyright © 2017 Yuhui Huang. All rights reserved.
-//
-
-#include <stdio.h>
-
-/**
- 交换两个整数的顺序
- 
- @param a 整数a
- @param b 整数b
- */
-void swap(int *a, int *b) {
-    int temp;
-    temp = *a;
-    *a = *b;
-    *b = temp;
-}
+#include "Util.h"
 
 /**
  希尔排序，从小到大排序整数。
@@ -54,22 +33,12 @@ void shellSort(int a[], int n) {
     }
 }
 
-void printArray(int a[], int n) {
-    printf("---- print begin ----\n");
-    for (int i=0; i<n; ++i) {
-        printf("%d ", a[i]);
-    }
-    printf("\n---- print end ----\n");
-}
-
-int main(int argc, const char * argv[]) {
-    
+int main() {
     int a[] = {-111, 2, 5, 6, 3, 7, 8, 0, 9, 12, 1};
     int n =  sizeof(a)/sizeof(a[0]);
     printArray(a, n);
-    
+    printf("\n---- shell sort ----\n\n");
     shellSort(a, n);
     printArray(a, n);
-    
     return 0;
 }
