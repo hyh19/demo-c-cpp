@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CA773AB91E3F2EC90028C9E4 /* sort.c in Sources */ = {isa = PBXBuildFile; fileRef = CA773AB81E3F2DF00028C9E4 /* sort.c */; };
 		CABE3F1D1E3D9A8F009A9B1A /* list.c in Sources */ = {isa = PBXBuildFile; fileRef = CABE3F1B1E3D9A8F009A9B1A /* list.c */; };
-		CABE3F1F1E3D9AA1009A9B1A /* testlist.c in Sources */ = {isa = PBXBuildFile; fileRef = CABE3F1E1E3D9AA0009A9B1A /* testlist.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,6 +24,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		CA773AB81E3F2DF00028C9E4 /* sort.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = sort.c; sourceTree = "<group>"; };
+		CA773ABA1E3F2FDA0028C9E4 /* Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Util.h; sourceTree = "<group>"; };
 		CABE3F1B1E3D9A8F009A9B1A /* list.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = list.c; sourceTree = "<group>"; };
 		CABE3F1C1E3D9A8F009A9B1A /* list.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = list.h; sourceTree = "<group>"; };
 		CABE3F1E1E3D9AA0009A9B1A /* testlist.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = testlist.c; sourceTree = "<group>"; };
@@ -69,6 +71,7 @@
 		CAD380001E3C3A9400FC3E4F /* Book5 */ = {
 			isa = PBXGroup;
 			children = (
+				CA773ABA1E3F2FDA0028C9E4 /* Util.h */,
 				CAD3800E1E3C3B1300FC3E4F /* fatal.h */,
 				CAD3800A1E3C3ACD00FC3E4F /* tree.h */,
 				CAD380091E3C3ACD00FC3E4F /* tree.c */,
@@ -79,6 +82,7 @@
 				CABE3F1B1E3D9A8F009A9B1A /* list.c */,
 				CABE3F1C1E3D9A8F009A9B1A /* list.h */,
 				CABE3F1E1E3D9AA0009A9B1A /* testlist.c */,
+				CA773AB81E3F2DF00028C9E4 /* sort.c */,
 			);
 			path = Book5;
 			sourceTree = "<group>";
@@ -141,7 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CABE3F1D1E3D9A8F009A9B1A /* list.c in Sources */,
-				CABE3F1F1E3D9AA1009A9B1A /* testlist.c in Sources */,
+				CA773AB91E3F2EC90028C9E4 /* sort.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
