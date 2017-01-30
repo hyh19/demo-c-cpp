@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include "Util.h"
 
 /**
  直接插入排序，从小到大排序整数。
@@ -7,7 +8,7 @@
  @param a 数组
  @param n 数组的元素个数
  */
-void insertSort(int a[], int n) {
+void insertionSort(int a[], int n) {
     /**
      { (a[0], a[1], a[2]...a[i-1]), a[i], a[i+1]...a[n-1] }
      - a[0]至a[i-1]表示已经排序过的子序列
@@ -30,21 +31,12 @@ void insertSort(int a[], int n) {
     }
 }
 
-// 打印数组的元素
-void printArray(int a[], int n) {
-    printf("---- print begin ----\n");
-    for (int i=0; i<n; i++) {
-        printf("%d ", a[i]);
-    }
-    printf("\n---- print end ----\n");
-}
-
-int main(int argc, const char * argv[]) {
+int main() {
     int a[] = {-111, 2, 5, 6, 3, 7, 8, 0, 9, 12, 1};
     int n =  sizeof(a)/sizeof(a[0]);
     printArray(a, n);
-    printf("\n---- after sort ----\n\n");
-    insertSort(a, n);
+    printf("\n---- insertion sort ----\n\n");
+    insertionSort(a, n);
     printArray(a, n);
     return 0;
 }
