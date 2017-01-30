@@ -26,6 +26,23 @@
 		CA773A711E3F19D80028C9E4 /* Book2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Book2; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA773A741E3F19D80028C9E4 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		CA773A7B1E3F19FD0028C9E4 /* 妙趣横生的算法C++描述.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "妙趣横生的算法C++描述.md"; sourceTree = "<group>"; };
+		CA773AA31E3F23000028C9E4 /* 1-1-x.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "1-1-x.cpp"; sourceTree = "<group>"; };
+		CA773AA41E3F23000028C9E4 /* 1-2-x.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "1-2-x.cpp"; sourceTree = "<group>"; };
+		CA773AA51E3F23000028C9E4 /* 1-6-x.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "1-6-x.cpp"; sourceTree = "<group>"; };
+		CA773AA61E3F23000028C9E4 /* 1-9-x.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "1-9-x.cpp"; sourceTree = "<group>"; };
+		CA773AA71E3F23000028C9E4 /* 1-11-x.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "1-11-x.cpp"; sourceTree = "<group>"; };
+		CA773AA81E3F23000028C9E4 /* 5-1-InsertSort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "5-1-InsertSort.cpp"; sourceTree = "<group>"; };
+		CA773AA91E3F23000028C9E4 /* 5-3-BubbleSort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "5-3-BubbleSort.cpp"; sourceTree = "<group>"; };
+		CA773AAA1E3F23000028C9E4 /* 5-5-QuickSort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "5-5-QuickSort.cpp"; sourceTree = "<group>"; };
+		CA773AAB1E3F23000028C9E4 /* 5-8-ShellSort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "5-8-ShellSort.cpp"; sourceTree = "<group>"; };
+		CA773AAC1E3F23000028C9E4 /* 5-9-SelectionSort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "5-9-SelectionSort.cpp"; sourceTree = "<group>"; };
+		CA773AAD1E3F23000028C9E4 /* BST.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BST.hpp; sourceTree = "<group>"; };
+		CA773AAE1E3F23000028C9E4 /* CommonHeaders.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CommonHeaders.hpp; sourceTree = "<group>"; };
+		CA773AAF1E3F23000028C9E4 /* HashTable.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = HashTable.hpp; sourceTree = "<group>"; };
+		CA773AB01E3F23000028C9E4 /* LinkList.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LinkList.hpp; sourceTree = "<group>"; };
+		CA773AB11E3F23000028C9E4 /* Queue.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Queue.hpp; sourceTree = "<group>"; };
+		CA773AB21E3F23000028C9E4 /* Stack.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Stack.hpp; sourceTree = "<group>"; };
+		CA773AB31E3F23000028C9E4 /* Util.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Util.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +76,23 @@
 		CA773A731E3F19D80028C9E4 /* Book2 */ = {
 			isa = PBXGroup;
 			children = (
+				CA773AA31E3F23000028C9E4 /* 1-1-x.cpp */,
+				CA773AA41E3F23000028C9E4 /* 1-2-x.cpp */,
+				CA773AA51E3F23000028C9E4 /* 1-6-x.cpp */,
+				CA773AA61E3F23000028C9E4 /* 1-9-x.cpp */,
+				CA773AA71E3F23000028C9E4 /* 1-11-x.cpp */,
+				CA773AA81E3F23000028C9E4 /* 5-1-InsertSort.cpp */,
+				CA773AA91E3F23000028C9E4 /* 5-3-BubbleSort.cpp */,
+				CA773AAA1E3F23000028C9E4 /* 5-5-QuickSort.cpp */,
+				CA773AAB1E3F23000028C9E4 /* 5-8-ShellSort.cpp */,
+				CA773AAC1E3F23000028C9E4 /* 5-9-SelectionSort.cpp */,
+				CA773AAD1E3F23000028C9E4 /* BST.hpp */,
+				CA773AAE1E3F23000028C9E4 /* CommonHeaders.hpp */,
+				CA773AAF1E3F23000028C9E4 /* HashTable.hpp */,
+				CA773AB01E3F23000028C9E4 /* LinkList.hpp */,
+				CA773AB11E3F23000028C9E4 /* Queue.hpp */,
+				CA773AB21E3F23000028C9E4 /* Stack.hpp */,
+				CA773AB31E3F23000028C9E4 /* Util.hpp */,
 				CA773A741E3F19D80028C9E4 /* main.cpp */,
 			);
 			path = Book2;
@@ -248,6 +282,7 @@
 				CA773A7A1E3F19D80028C9E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
