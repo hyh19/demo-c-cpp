@@ -1,11 +1,3 @@
-//
-//  1-4-x.c
-//  Demo-Data-Structure-C
-//
-//  Created by Yuhui Huang on 05/01/2017.
-//  Copyright © 2017 Yuhui Huang. All rights reserved.
-//
-
 #include <stdio.h>
 #include <math.h>
 
@@ -14,16 +6,14 @@
 
 typedef char ElemType;
 
-
 /**
  顺序栈
  */
 typedef struct {
-    ElemType *base; // 栈底
-    ElemType *top; // 栈顶
+    ElemType *base; // 栈底，指向数组的第一个元素的地址。
+    ElemType *top; // 栈顶，指向数组最后一个元素的下一地址。
     int stackSize; // 栈容量
 } sqStack;
-
 
 /**
  初始化一个栈
@@ -32,48 +22,45 @@ typedef struct {
  */
 void initStack(sqStack *s) {
     s->base = malloc(STACK_INIT_SIZE * sizeof(ElemType));
-    if (!s->base) { exit(0); }
+    if (!s->base) { exit(1); }
     s->top = s->base; // 栈顶和栈底的指针相同表示空栈
     s->stackSize = STACK_INIT_SIZE;
 }
-
 
 /**
  入栈
 
  @param s 被操作的栈
- @param e 要插入的值
+ @param e 要入栈的新元素的值
  */
 void push(sqStack *s, ElemType e) {
     if ((s->top - s->base) >= s->stackSize) { // 容量不够
         s->base = realloc(s->base, (s->stackSize+STACK_INCREMENT) * sizeof(ElemType));
-        if (!s->base) { exit(0); }
-        s->top = (s->base + s->stackSize); // 栈底的地址重新分配了，栈顶指针重新挪到顶部。
+        if (!s->base) { exit(1); }
+        s->top = (s->base + s->stackSize); // 栈底的地址重新分配了，栈顶指针重新挪到最后一个元素的下一地址。
         s->stackSize += STACK_INCREMENT;
     }
     *(s->top) = e;
-    ++s->top; // 栈顶指针往上挪一格
+    ++s->top; // 栈顶指针往上挪到下一个地址
 }
-
 
 /**
  出栈
 
  @param s 被操作的栈
- @param e 出栈存放的值
+ @param e 存放被出栈元素的值
  */
 void pop(sqStack *s, ElemType *e) {
     if (s->top == s->base) { // 空栈
         return;
     }
-    *e = *(--s->top); // 栈顶指针往下挪一格
+    *e = *(--s->top); // 栈顶指针往下挪一个地址
 }
 
-
 /**
- 栈的长度
+ 获取栈的元素个数
 
- @param s 某一个栈
+ @param s 栈
  @return 元素个数
  */
 long stackLen(sqStack s) {
